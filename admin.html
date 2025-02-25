@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Matan's Wine Shop</title>
+        <link rel="icon" type="image/png" href="images/extras/logo.png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="index_style.css">
+        <link rel="stylesheet" href="admin_style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html"> <img src="images/extras/logo.png"alt="Matan's wine shop" id="logo" draggable="false"></a>
+            <h1>Matan's wine shop</h1>
+            <a href="cart.html"><span id="cart_number">0</span></ahref><img src="images/extras/checkout.png" alt="Shopping Cart" id="cart" draggable="false"></a>
+        </header>
+
+        <header id="add_wine_header"><h1>Add Wine To The Store</h1></header>
+        
+        <form id="wineForm">
+            <div>
+                <a>Wine Name: </a> <input id=wineName type="text"><br><br>
+            </div>
+            
+            <div>
+                <a>Wine Type: </a> <br><br>
+                <input name="type" type="radio" value="Red"> Red <br><br>
+                <input name="type" type="radio" value="White">White<br><br>
+                <input name="type" type="radio" value="Rose">Rose<br><br>
+            </div>
+
+            <div>
+                <a>Origin Country: </a>
+                <input type="text" id="originCountry"><br><br>
+            </div>
+            
+            <div>
+                <a>Price: </a>
+                <input type="number" id="price"><br><br>
+            </div>
+
+            <a>Put the wine's image in the /images/wine file under the name {wine name}.jpg</a> <br><br>
+
+            <!--
+            <a>A Photo Of The Wine: </a>
+            <input type="file" id="winePhoto"><br><br>
+            -->
+
+            <input type="submit" value="Submit Wine">
+        </form>
+
+        <div id="products"></div>
+
+
+        <script src="admin.js"></script>
+        
+    </body>
+</html>
