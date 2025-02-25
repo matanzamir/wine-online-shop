@@ -25,6 +25,6 @@ The admin page gives you the possibility to:
   * Add a wine to the wine list
   * remove wines from the wines list
 
-For the wines to have a photo, you need to add a photo of your choice to the folder /images/wines/, and save it as {wine name}.jpg
+For the wines to have a photo, you need to add a photo of your choice to the folder /images/wineW/, and save it as {wine name}.jpg
 
 A few wines already have a photo I put there beforehand, so for quick testing experience, you can use them. The wines are: Bordeaux, and Castel
